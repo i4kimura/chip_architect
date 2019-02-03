@@ -14,7 +14,7 @@
 - 4.12 –½—ßƒLƒƒƒbƒVƒ…ƒqƒbƒg/ƒ~ƒX‚ÌŒˆ’èBŒ»Ý‚Ìƒy[ƒW‚ÆBTAC
 - 4.13 –½—ßƒLƒƒƒbƒVƒ…ƒXƒk[ƒsƒ“ƒO
 
-![Opteron's Instruction and Decoding Pipeline](Opteron_Instr_Cache.jpg)
+<img src="Opteron_Instr_Cache.jpg" width=300px>
 
 ## 4.1 –½—ßƒLƒƒƒbƒVƒ…: 1‚ÂˆÈã‚Ì–½—ß‚ðŠi”[‚·‚é
 
@@ -26,12 +26,12 @@
 ‚Â‚Ü‚èA1024ŒÂ‚ÌƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚ÍA‚»‚ê‚¼‚ê•t‰Áƒrƒbƒg‚ðŽ‚Á‚Ä‚¢‚éB
 ‚±‚ê‚ç‚Í1024ƒGƒ“ƒgƒŠ‚æ‚è‚à­‚È‚¢A‚³‚ç‚É‘½‚­‚ÌƒtƒB[ƒ‹ƒh‚ðŽ‚Á‚Ä‚¨‚èAƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚Ìˆê•”‚Å‚Ì‚Ý—LŒø‚Æ‚È‚éB
 
-|                        | Instruction only | Total Size |
-|------------------------|------------------|------------|
-| Instruction Cache size | 64 kByte         | 102 kByte  |
-| Cache Line size        | 64 Byte          | 102 Byte   |
-| One Read Port          | 128 bit          | 204 bit    |
-| One Write Port         | 128 bit          | 204 bit    |
+|                        | –½—ß‚Ì‚Ý‚ÌƒTƒCƒY | ƒg[ƒ^ƒ‹ƒTƒCƒY |
+| ---------------------- | ---------------- | -------------- |
+| –½—ßƒLƒƒƒbƒVƒ…ƒTƒCƒY   | 64 kByte         | 102 kByte      |
+| ƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“ƒTƒCƒY | 64 Byte          | 102 Byte       |
+| “Ç‚Ýž‚Ýƒ|[ƒg1        | 128 bit          | 204 bit        |
+| ‘‚«ž‚Ýƒ|[ƒg1        | 128 bit          | 204 bit        |
 
 —Ç‚­’m‚ç‚ê‚Ä‚¢‚é‚Ì‚ÍAŠeƒoƒCƒg‚É•t‰Á‚³‚ê‚Ä‚¢‚éƒvƒŠƒfƒR[ƒhƒrƒbƒg‚ÆŒÄ‚Î‚ê‚é3ƒrƒbƒg‚Ìƒf[ƒ^‚Å‚ ‚éB
 ‚±‚ê‚ç‚Ìƒrƒbƒg‚ÍA•¡ŽG‚Èx86‰Â•Ï’·–½—ß‚Ìæ“ª‚ÆÅŒã”ö‚Éƒ}[ƒN‚³‚êA‚¢‚­‚Â‚©‚Ì‹@”\“I‚Èî•ñ‚ð’ñ‹Ÿ‚·‚éB
@@ -57,7 +57,7 @@ ECC‚Íƒf[ƒ^ƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚Å‚µ‚©—˜—p‚³‚ê‚¸A–½—ßƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“‚Å‚Í—˜—p‚³‚ê‚È‚
 | Branch Selectors | 8 kByte   | 16 bit   | 2 bits for each 2 bytes of instruction code                     |
 | TOTAL            | 102 kByte | 204 bit  |                                                                 |
 
-![Opteron's Instruction Cache](Opteron_Instruction_Cache_Ill.jpg)
+<img src="Opteron_Instruction_Cache_Ill.jpg" width=300px>
 
 ## 4.2 ˆê”Ê“I‚È–½—ßƒtƒH[ƒ}ƒbƒg
 
@@ -136,7 +136,7 @@ EscapeƒvƒŠƒtƒBƒbƒNƒX(hex 0F)‚ÍSSE–½—ß‚ð“Á’è‚·‚é‚½‚ß‚É—˜—p‚³‚ê‚éB
 ŒÃ‚¢’Pˆê‚ÌƒuƒƒbƒN‚Í4ƒTƒCƒNƒ‹‚Å4ƒoƒCƒg‚ðƒXƒeƒbƒv‚µ‚Ä‚¢‚­B
 ‚•À—ñƒvƒŠƒfƒR[ƒ_‚Í‚±‚ê‚ç‚Ì4‚Â‚ÌƒuƒƒbƒN‚ð‘g‚Ý‡‚í‚¹A2”Ô–Ú‚ÌƒXƒe[ƒW‚Å‚±‚ê‚ç‚Ì4‚Â‚ÌƒuƒƒbƒNŠÔ‚ÌŠÖŒW‚ð\’z‚·‚éF start/end‚ÌC³‚Æƒ\[ƒeƒBƒ“ƒO‚Å‚ ‚éB
 
-![Opteron‚Ì‚•À—ñƒvƒŠƒfƒR[ƒ_](Opteron_parallel_predecoder_780x1408.jpg)
+<img src="Opteron_parallel_predecoder_780x1408.jpg" width=300px>
 
 ## 4.5 ‚•‰‰×‚Ì•ªŠò—\‘ª
 
@@ -150,7 +150,7 @@ EscapeƒvƒŠƒtƒBƒbƒNƒX(hex 0F)‚ÍSSE–½—ß‚ð“Á’è‚·‚é‚½‚ß‚É—˜—p‚³‚ê‚éB
 ‚±‚ê‚Í‚Â‚Ü‚èA–½—ßƒoƒCƒg‚Ì“à—e‚ðŠm”F‚·‚éŽžŠÔ‚àAðŒ•ªŠò–½—ß‚ðŽ¯•Ê‚·‚éŽžŠÔ‚à–³‚¢‚Æ‚¢‚¤‚±‚Æ‚ðˆÓ–¡‚µA‚±‚Ì‚½‚ß•ªŠò—\‘ª‚ð¶¬‚·‚é‚½‚ß‚ÉA‚±‚ê‚ç‚Ì•ªŠò‚Ì—š—ð‚ðŽQÆ‚·‚éB
 ‚±‚Ì•ªŠò—\‘ª‚ðŽÀs‚·‚é‚½‚ß‚É‚ÍA”ƒTƒCƒNƒ‹‚ðÁ”ï‚µ‚Ä‚µ‚Ü‚¤B
 
-![•ªŠò—\‘ª‚Ì•‰‰×](Opteron_MPF_20.jpg)
+<img src="Opteron_MPF_20.jpg" width=400px>
 
 ## 4.6 Œüã‚µ‚½•ªŠò—\‘ª
 
